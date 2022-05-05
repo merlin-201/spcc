@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int maximum( int x, int y){
+    // this gives max number
+    if(x > y)
+        return x;
+    else
+        return y;
+}
